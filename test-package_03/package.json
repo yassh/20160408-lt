@@ -1,0 +1,12 @@
+{
+  "name": "test-package",
+  "bin": {
+    "test-hello": "hello.js",
+    "test-goodbye": "goodbye.js",
+    "test-w": "w.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "yargs": "^4.3.2"
+  }
+}
