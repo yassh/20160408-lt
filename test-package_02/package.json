@@ -1,0 +1,7 @@
+{
+  "name": "test-package",
+  "bin": {
+    "test-hello": "hello.js",
+    "test-goodbye": "goodbye.js"
+  }
+}
