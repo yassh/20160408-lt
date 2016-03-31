@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>npmで作るコマンドラインツール</title>
+<link rel="stylesheet" href="reveal/reveal.css">
+<link rel="stylesheet" href="reveal/night.css">
+<link rel="stylesheet" href="reveal/zenburn.css">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown="index.md" data-separator="\n\n---\n\n"></section>
+  </div>
+</div>
+
+<script src="reveal/head.min.js"></script>
+<script src="reveal/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    dependencies: [
+      { src: 'reveal/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+    ]
+  });
+</script>
+
+</body>
+</html>
