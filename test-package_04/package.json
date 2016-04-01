@@ -1,0 +1,15 @@
+{
+  "name": "test-package",
+  "bin": {
+    "test-hello": "hello.js",
+    "test-goodbye": "goodbye.js",
+    "test-w": "w.js",
+    "test-q": "q.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "jquery-param": "^0.2.0",
+    "opener": "^1.4.1",
+    "yargs": "^4.3.2"
+  }
+}
